@@ -1,4 +1,8 @@
 body {
+<<<<<<< HEAD
+=======
+	background-color: #efeee7;
+>>>>>>> 76aae8a2c995784ac4dc8173b2a3b7160459db12
 	margin: 0;
 	padding: 0;
 	/*default test fonts for serif or sans*/
@@ -9,14 +13,21 @@ body {
 }
 
 header {
+<<<<<<< HEAD
 	color: #404040;
 /*	background-color: #333333;*/
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 20%, rgba(0,0,0,1) 100%);
+=======
+	color: #efeee7;
+/*	background-color: #333333;*/
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+>>>>>>> 76aae8a2c995784ac4dc8173b2a3b7160459db12
 	margin: 0;
 	text-align: right;
 	padding: 30px 0;
 }
 
+<<<<<<< HEAD
 #logo h1 .grey {
 	color:Tomato;
 	font-size: 30px;
@@ -41,6 +52,24 @@ header h1 {
 
 #logo img:hover {
     box-shadow: 0 1px 3px 2px rgba(0, 140, 186, 0.5);
+=======
+header #logo img {
+	margin-left: 70px;
+	margin-top: 0;
+	float: left;
+	background-color: #404040;
+    border: 1px solid #ddd;
+    border-radius: 70px;
+    padding: 10px;
+    width: 190px;
+    position: relative;
+    top: -30px;
+    box-shadow: 0 0 2px 1px rgba(0, 110, 150, 0.5);
+}
+
+#logo img:hover {
+  box-shadow: 0 1px 3px 2px rgba(0, 140, 186, 0.5);
+>>>>>>> 76aae8a2c995784ac4dc8173b2a3b7160459db12
 }
 
 nav ul {
@@ -57,12 +86,17 @@ nav ul li a {
 	color: #ffffff;
 	text-decoration: none;
 	padding: 0 3px 10px 3px;
+<<<<<<< HEAD
 	border-bottom: 2px solid rgba(255, 99, 71, 0);
+=======
+	border-bottom: 2px solid rgba(255, 255, 255, 0);
+>>>>>>> 76aae8a2c995784ac4dc8173b2a3b7160459db12
 }
 
 nav ul li a:hover {
 	color: #ffffff;
 	text-decoration: none;
+<<<<<<< HEAD
 	border-bottom: 2px solid rgba(255, 99, 71, 1); 
 }
 
@@ -88,16 +122,40 @@ article {
 }
 
 #footer {
+=======
+	border-bottom: 2px solid rgba(255, 255, 255, 1); 
+}
+
+main {
+	clear: both;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+footer {
+>>>>>>> 76aae8a2c995784ac4dc8173b2a3b7160459db12
 	font-size: 14px;
 	text-align: center;
 	background-color: #404040;
 	color: #efeee7;
+<<<<<<< HEAD
 	margin: 15px 0 0 0;
 	padding-top: 20px;
 	border-bottom: 10px solid #000000;
 /*	position: absolute;
     bottom: 0;
     left: 0;*/
+=======
+	margin-top: 15px;
+	padding-top: 20px;
+	border-bottom: 10px solid #000000;
+	position: absolute;
+    bottom: 0;
+    left: 0;
+>>>>>>> 76aae8a2c995784ac4dc8173b2a3b7160459db12
 }
 
 #social li {
