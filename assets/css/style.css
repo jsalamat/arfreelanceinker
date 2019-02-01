@@ -1,5 +1,4 @@
 body {
-	background-color: #efeee7;
 	margin: 0;
 	padding: 0;
 	/*default test fonts for serif or sans*/
@@ -10,30 +9,38 @@ body {
 }
 
 header {
-	color: #efeee7;
+	color: #404040;
 /*	background-color: #333333;*/
-background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 20%, rgba(0,0,0,1) 100%);
 	margin: 0;
 	text-align: right;
 	padding: 30px 0;
 }
 
+#logo h1 .grey {
+	color:Tomato;
+	font-size: 30px;
+	font-weight: bold;
+}
+
 header #logo img {
-	margin-left: 70px;
+	margin-left: 0px;
 	margin-top: 0;
 	float: left;
-	background-color: #404040;
-    border: 1px solid #ddd;
-    border-radius: 70px;
     padding: 10px;
-    width: 190px;
+    height: 120px;
     position: relative;
-    top: -30px;
-    box-shadow: 0 0 2px 1px rgba(0, 110, 150, 0.5);
+    top: -45px;
+}
+
+header h1 {
+	float: left;
+	margin: 0 0 0 10px;
+	font-size: 20px;
 }
 
 #logo img:hover {
-  box-shadow: 0 1px 3px 2px rgba(0, 140, 186, 0.5);
+    box-shadow: 0 1px 3px 2px rgba(0, 140, 186, 0.5);
 }
 
 nav ul {
@@ -50,35 +57,47 @@ nav ul li a {
 	color: #ffffff;
 	text-decoration: none;
 	padding: 0 3px 10px 3px;
-	border-bottom: 2px solid rgba(255, 255, 255, 0);
+	border-bottom: 2px solid rgba(255, 99, 71, 0);
 }
 
 nav ul li a:hover {
 	color: #ffffff;
 	text-decoration: none;
-	border-bottom: 2px solid rgba(255, 255, 255, 1); 
+	border-bottom: 2px solid rgba(255, 99, 71, 1); 
 }
 
 main {
-	clear: both;
-}
-
-.container {
+	background-color: grey;
 	width: 100%;
+	padding: 10px;
 	margin: 0 auto;
+	height: 820px;
 }
 
-footer {
+article {
+	float: left;
+	font-size: 15px;
+	margin: 0 60px 0 0;
+	font-family: "Georgia", "Times New Roman", Times, serif;
+	width: 45%;
+}
+
+#splash {
+	width: 30%;
+	margin: 20px 0 0 0;
+}
+
+#footer {
 	font-size: 14px;
 	text-align: center;
 	background-color: #404040;
 	color: #efeee7;
-	margin-top: 15px;
+	margin: 15px 0 0 0;
 	padding-top: 20px;
 	border-bottom: 10px solid #000000;
-	position: absolute;
+/*	position: absolute;
     bottom: 0;
-    left: 0;
+    left: 0;*/
 }
 
 #social li {
